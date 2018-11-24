@@ -1,0 +1,4 @@
+include 'greeting-library'
+include 'greeter'
+include 'docs'
+rootProject.name = 'gradle-tutorials'
