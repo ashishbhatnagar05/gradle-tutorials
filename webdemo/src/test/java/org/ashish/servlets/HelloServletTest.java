@@ -1,4 +1,4 @@
-package org.gradle.demo;
+package org.ashish.servlets;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -15,10 +15,17 @@ gretty {
 }
 
 dependencies {
-    providedCompile 'javax.servlet:javax.servlet-api:3.1.0' 
+    providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
     testCompile 'junit:junit:4.12'
-    testCompile 'org.mockito:mockito-core:2.7.19'  
-	//testCompile 'io.github.bonigarcia:webdrivermanager:1.6.1'
+    testCompile 'org.mockito:mockito-core:2.7.19'
+    compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.25.1'
+    compile group: 'org.springframework', name: 'spring-core', version: '5.0.5.RELEASE'
+    compile group: 'org.springframework', name: 'spring-web', version: '5.0.5.RELEASE'
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '5.0.5.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context', version: '5.0.5.RELEASE'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.4.1'
+
+    //testCompile 'io.github.bonigarcia:webdrivermanager:1.6.1'
     //testCompile 'org.seleniumhq.selenium:selenium-java:3.3.1'
 }
 

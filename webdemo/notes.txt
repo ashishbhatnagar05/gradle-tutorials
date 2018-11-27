@@ -1,0 +1,7 @@
+--The first servlet is not being used, as it uses JSP and due to spring the jsp is not getting called.
+--Java-RS is working perfectly
+--Spring configuration too are working fine
+
+--------
+
+--Curretly project is working only on jboss. There are some issue with tomcat.
